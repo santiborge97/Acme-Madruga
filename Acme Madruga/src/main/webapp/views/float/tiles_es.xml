@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+ * tiles_es.xml
+ *
+ * Copyright (C) 2019 Universidad de Sevilla
+ * 
+ * The use of this project is hereby constrained to the conditions of the 
+ * TDG Licence, a copy of which you may download from 
+ * http://www.tdg-seville.info/License.html
+ -->
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+      
+<tiles-definitions>
+<definition name="float/list" extends="master.page">	
+		<put-attribute name="title" value="Lista de pasos" />
+		<put-attribute name="body" value="/views/float/list.jsp" />
+	</definition>
+	
+	<definition name="float/display" extends="master.page">	
+		<put-attribute name="title" value="Vista de paso" />
+		<put-attribute name="body" value="/views/float/display.jsp" />
+	</definition>
+	
+	<definition name="float/edit" extends="master.page">	
+		<put-attribute name="title" value="Editar pasos" />
+		<put-attribute name="body" value="/views/float/edit.jsp" />
+	</definition>
+	
+	<definition name="float/listAdd" extends="master.page">	
+		<put-attribute name="title" value="Lista para añadir paso a una procesión" />
+		<put-attribute name="body" value="/views/float/listAdd.jsp" />
+	</definition>
+	
+	<definition name="float/listAnonimo" extends="master.page">	
+		<put-attribute name="title" value="Lista de pasos" />
+		<put-attribute name="body" value="/views/float/listAnonimo.jsp" />
+	</definition>
+	
+	
+</tiles-definitions>

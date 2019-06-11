@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+ * tiles.xml
+ *
+ * Copyright (C) 2019 Universidad de Sevilla
+ * 
+ * The use of this project is hereby constrained to the conditions of the 
+ * TDG Licence, a copy of which you may download from 
+ * http://www.tdg-seville.info/License.html
+ -->
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+       
+<tiles-definitions>
+
+	<definition name="request/list" extends="master.page">	
+		<put-attribute name="title" value="Request List" />
+		<put-attribute name="body" value="/views/request/list.jsp" />
+	</definition>
+	
+	<definition name="request/display" extends="master.page">	
+		<put-attribute name="title" value="Request:" />
+		<put-attribute name="body" value="/views/request/display.jsp" />
+	</definition>
+	
+	<!-- Brotherhood -->
+	
+	<definition name="request/listPending" extends="master.page">	
+		<put-attribute name="title" value="Pending request list" />
+		<put-attribute name="body" value="/views/request/listPending.jsp" />
+	</definition>
+	
+	<definition name="request/accept" extends="master.page">	
+		<put-attribute name="title" value="Accept request" />
+		<put-attribute name="body" value="/views/request/accept.jsp" />
+	</definition>
+	
+	<definition name="request/reject" extends="master.page">	
+		<put-attribute name="title" value="Reject request" />
+		<put-attribute name="body" value="/views/request/reject.jsp" />
+	</definition>
+	
+	<definition name="request/listProcessions" extends="master.page">	
+		<put-attribute name="title" value="Request to march" />
+		<put-attribute name="body" value="/views/request/listProcessions.jsp" />
+	</definition>
+	
+
+</tiles-definitions>

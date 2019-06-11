@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+ * tiles_es.xml
+ *
+ * Copyright (C) 2019 Universidad de Sevilla
+ * 
+ * The use of this project is hereby constrained to the conditions of the 
+ * TDG Licence, a copy of which you may download from 
+ * http://www.tdg-seville.info/License.html
+ -->
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+      
+<tiles-definitions>
+	
+	<definition name="administrator/listPosition" extends="master.page">	
+		<put-attribute name="title" value="Posición: Listar" />
+		<put-attribute name="body" value="/views/administrator/listPosition.jsp" />
+	</definition>
+	
+	<definition name="administrator/displayPosition" extends="master.page">	
+		<put-attribute name="title" value="Posición: Mostrar" />
+		<put-attribute name="body" value="/views/administrator/displayPosition.jsp" />
+	</definition>
+	
+	<definition name="administrator/editPosition" extends="master.page">	
+		<put-attribute name="title" value="Posición: Editar" />
+		<put-attribute name="body" value="/views/administrator/editPosition.jsp" />
+	</definition>
+	
+	<definition name="administrator/editConfiguration" extends="master.page">	
+		<put-attribute name="title" value="Configuración: Editar" />
+		<put-attribute name="body" value="/views/administrator/editConfiguration.jsp" />
+	</definition>
+	
+	<definition name="administrator/signUpAdministrator" extends="master.page">	
+		<put-attribute name="title" value="Administrador: Registro" />
+		<put-attribute name="body" value="/views/administrator/signUpAdministrator.jsp" />
+	</definition>
+	
+	<definition name="administrator/createArea" extends="master.page">	
+		<put-attribute name="title" value="Administrador: Crear Area" />
+		<put-attribute name="body" value="/views/administrator/createArea.jsp" />
+	</definition>
+	
+	<definition name="administrator/listAreas" extends="master.page">	
+		<put-attribute name="title" value="Administrador: Todas las areas" />
+		<put-attribute name="body" value="/views/administrator/listAreas.jsp" />
+	</definition>
+	
+	<definition name="administrator/listActor" extends="master.page">	
+		<put-attribute name="title" value="Actor: Listar" />
+		<put-attribute name="body" value="/views/administrator/listActor.jsp" />
+	</definition>
+	
+</tiles-definitions>

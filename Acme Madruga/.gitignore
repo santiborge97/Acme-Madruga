@@ -1,0 +1,12 @@
+.project
+.settings/org.eclipse.core.resources.prefs
+src/main/resources/Entities.map
+target/classes/
+target/test-classses/
+target/Acme-HandyWorker-1.0
+*.class
+*.war
+*.properties
+!messages_es.properties
+!messages.properties
+._*
